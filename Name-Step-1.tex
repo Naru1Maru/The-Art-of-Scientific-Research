@@ -4,31 +4,26 @@
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
 \usepackage{a4wide}
-\title{Reconstructed abstract of the paper ``Put the paper title or DOI here''}
-%\author{not specified, not necessary here}
+\title{Reconstructed abstract of the paper ``Feature Selection via Quadratic Programming''}
 \date{}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-The abstract is limited to 600 characters. It may contain a wide-range field of the investigated problem, narrow problem to focus on, features and conditions of the problem, the idea of the suggested solution, the novelty and alternative solutions to compare with, application to illustrate with.
+This paper presents a feature selection method to solve the multicollinearity problem in data fitting. The approach, based on quadratic programming, selects features by considering their relevance and similarity, leading to more stable and compact models. Comparative experiments with LARS, Lasso, Ridge, and other methods demonstrate the superiority of this approach on both synthetic and real data sets.
 \end{abstract}
-\paragraph{Keywords:} The Art On Scientific Research, Abstract Reconstruction, Please Put Yours 
+\paragraph{Keywords:} Feature selection, multicollinearity, quadratic programming, data fitting
 
 \paragraph{Highlights:}
 \begin{enumerate}
-\item Highlight one
-\item Highlight two
-\item Highlight three
+    \item New method to address multicollinearity in feature selection.
+    \item Quadratic programming minimizes feature correlation.
+    \item The method improves model stability and performance.
 \end{enumerate}
 
 \section{Introduction}
-Explain the reasons you chose the paper~\cite{9095246}. The reasons shall not be personal. They shall enlighten the novelty, impact, or contributions.  
-%\begin{figure}
-%\includegraphics[scale=0.35]{SVD_derint}
-%\caption{A rigorous description of what the reader sees on the plot and the consequences of the shown result}
-%\end{figure}
+The multicollinearity problem affects the stability of regression models. Traditional methods like LARS, Lasso, and Ridge may fail in the presence of high feature correlation. This paper introduces a quadratic programming approach that optimizes the feature selection process, considering both feature relevance and inter-feature similarities, resulting in more robust models. Comparative analysis proves the effectiveness of the proposed method.
 
 \bibliographystyle{unsrt}
-\bibliography{Name-theArt}
+\bibliography{feature-selection}
 \end{document}
