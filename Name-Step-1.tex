@@ -4,26 +4,24 @@
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
 \usepackage{a4wide}
-\title{Reconstructed abstract of the paper ``Feature Selection via Quadratic Programming''}
+\title{Reconstructed abstract of the paper 
+
+``Comprehensive study of feature selection methods to solve multicollinearity problem according to evaluation criteria''}
 \date{}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-This paper presents a feature selection method to solve the multicollinearity problem in data fitting. The approach, based on quadratic programming, selects features by considering their relevance and similarity, leading to more stable and compact models. Comparative experiments with LARS, Lasso, Ridge, and other methods demonstrate the superiority of this approach on both synthetic and real data sets.
+This paper presents a detailed study of addressing the multicollinearity problem in data fitting through a quadratic programming approach for feature selection. The proposed method aims to reduce model redundancy and instability caused by feature collinearity. By defining a quadratic objective function based on feature relevance and similarity measures, the method selects features that provide better stability and reduced redundancy. Compared with other feature selection methods, such as LARS, Lasso, and Genetic algorithms, the proposed approach demonstrates improved performance in experiments on both synthetic and real datasets.
 \end{abstract}
-\paragraph{Keywords:} Feature selection, multicollinearity, quadratic programming, data fitting
+
+\paragraph{Keywords:} multicollinearity, feature selection, quadratic programming, data fitting, evaluation criteria, correlation coefficient, mutual information
 
 \paragraph{Highlights:}
 \begin{enumerate}
-    \item New method to address multicollinearity in feature selection.
-    \item Quadratic programming minimizes feature correlation.
-    \item The method improves model stability and performance.
+    \item The study addresses the multicollinearity problem using a quadratic programming approach.
+    \item It reduces redundancy and instability in data models by selecting relevant features.
+    \item Compared to LARS, Lasso, and Ridge methods, this approach outperforms others in terms of stability and quality of the selected features.
 \end{enumerate}
 
-\section{Introduction}
-The multicollinearity problem affects the stability of regression models. Traditional methods like LARS, Lasso, and Ridge may fail in the presence of high feature correlation. This paper introduces a quadratic programming approach that optimizes the feature selection process, considering both feature relevance and inter-feature similarities, resulting in more robust models. Comparative analysis proves the effectiveness of the proposed method.
-
-\bibliographystyle{unsrt}
-\bibliography{feature-selection}
 \end{document}
