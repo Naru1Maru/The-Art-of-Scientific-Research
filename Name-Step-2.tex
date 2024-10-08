@@ -3,39 +3,30 @@
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
-\usepackage{a4wide}\title{Industrial project description (put the project title here)}
-%\author{not specified}
+\usepackage{a4wide}
+\title{Industrial project description: Churn Prediction}
 \date{}
 \begin{document}
 \maketitle
 
-%\begin{abstract}
-Answer the question to outline your project. Choose one of the roles: an {Expert} or an~\textbf{Analyst}.
-%\end{abstract}
-% \paragraph{Keywords:} The Art On Scientific Research, Abstract Reconstruction, Please Put Yours 
-
+The chosen role is \textbf{analyst}.
 
 \section{Planning the industrial research project}
-Before planning the research, the analyst and (\textbf{expert}) discuss the key issues. After the long dash~--- our remarks.
 
 \begin{enumerate}
-\item Goal of the project. (\textbf{Expected development result.})~---
-Expected research objective.
-\item Applied problem solved in the project. (\textbf{How will the result be used?})~--- How to illustrate the result?
-\item Description of historical measured data. (\textbf{Formats and timing.})~--- Algebraic data structure.
-\item Quality criteria. (\textbf{How is the quality of the obtained result measured, what is in the report?})~--- Error function to optimize.
-\item Project feasibility. (\textbf{How to show that the project is feasible, list of possible risks.})~--- Error analysis plan.
-\item Conditions necessary for successful project implementation. (\textbf{Organization of work.})~--- Requirements for the data set.
-\item Solution methods. (\textbf{Procedure libraries.})~--- Hypotheses, optimal probability models.
+\item Goal of the project. (\textbf{Expected development result.})~--- The primary goal of this project is to develop a machine learning model to predict customer churn, enabling proactive retention strategies. The expected result is an accurate predictive model that can identify customers at high risk of leaving.
+\item Applied problem solved in the project. (\textbf{How will the result be used?})~--- The result will be used by the company's customer retention team to target at-risk customers with personalized offers or interventions, improving overall customer loyalty and reducing churn rates.
+\item Description of historical measured data. (\textbf{Formats and timing.})~--- The historical data includes customer demographics, transaction history, usage patterns, and support interactions. The data is structured in tabular form and collected over the past 2-3 years at monthly intervals.
+\item Quality criteria. (\textbf{How is the quality of the obtained result measured, what is in the report?})~--- The quality of the result will be measured using metrics such as accuracy, precision, recall, and the area under the ROC curve (AUC). The final report will include these performance metrics along with insights from feature importance analysis.
+\item Project feasibility. (\textbf{How to show that the project is feasible, list of possible risks.})~--- Feasibility is demonstrated through a pilot study on a sample dataset. Potential risks include data quality issues (e.g., missing or inconsistent data), model overfitting, and changes in customer behavior that reduce model accuracy over time.
+\item Conditions necessary for successful project implementation. (\textbf{Organization of work.})~--- Access to a high-quality dataset with relevant features is crucial. Collaboration between data scientists, domain experts, and the customer retention team is also essential for defining useful features and evaluating model results.
+\item Solution methods. (\textbf{Procedure libraries.})~--- The solution will involve using machine learning techniques, specifically logistic regression, decision trees, or ensemble methods. Hypotheses about factors influencing churn will be tested, and optimal probability models will be developed using Python libraries such as scikit-learn and XGBoost.
 \end{enumerate}
 
 \section{Research or development?}
-In other words, novelty or technological advancement?
 
-{Analyst:} What impact will the research have on the field of knowledge? How useful will it be?
+\textbf{Analyst:} The impact of this research lies in its ability to provide actionable insights for reducing customer churn, which is a critical issue for many industries. The model can help optimize customer retention strategies, ultimately increasing profitability and customer satisfaction.
 
-{Expert:} (\textbf{How long will the model be used? What will replace it in the future?})
+\textbf{Expert:} (\textbf{How long will the model be used? What will replace it in the future?}) The model is expected to be used for 1-2 years, after which it may need retraining or replacement due to changes in customer behavior or market conditions. Future advancements may include deep learning models or integration with real-time data for instant churn prediction.
 
-%\bibliographystyle{unsrt}
-%\bibliography{Name-theArt}
 \end{document}
